@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Latihan</title>
+<style>
+.header {
+    position: relative;
+    background-color: #ADD8E6;
+    min-height: 230px;
+}
+
+.header img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.header h1 {
+    position: absolute;
+    top: 20px;
+    left: 230px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.header p {
+    position: absolute;
+    top:80px;
+    left:230px;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+    font-size: 20px;
+}
+
+.nav {
+    background-color: #6495ED;
+    text-align: center;
+    display: grid;
+    gap: 20px 50px;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin: 2px 0;
+    min-height: 30px;
+    direction: rtl;
+    gap: 1rem;
+    padding: 1rem;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.ul li {
+    margin: 0 20px;
+}
+
+.pigur {
+    position: absolute;
+    right: 80px;
+}
+
+.navi {
+    display: inline-flex;
+    background-color: #6495ED;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
+    min-height: 20px;
+}
+
+.hadeh {
+    border-radius: 25px;
+    width: 600px;
+    padding: 10px;
+    background-color: #D3D3D3;
+    left: 100px;
+    position: absolute;
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.hadeh::first-letter {
+    font-size: 500%;
+    color: #0032FF;
+    font-family: Impact, Charcoal, sans-serif;
+    letter-spacing: 2px;
+    padding: 6px 3px;
+    margin-right: 6px;
+    float: left;
+}
+
+table {
+    border-collapse:collapse;
+    table-layout: fixed;
+    width: 900px;
+    text-align:center;
+}
+
+table, th, td{
+    border:2px solid grey;
+}
+
+th, td {
+    width: 100px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th{
+    background-color:#87CEEB;
+    color:white;
+}
+
+table#table1 {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+  }
+  
+.hadeh2 {
+    border-radius: 25px;
+    width: 400px;
+    padding: 10px;
+    background-color: #87CEEB;
+    left: 100px;
+    position: absolute;
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 90%;
+    background-color: #6495ED;
+    color: black;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.futer {
+    position: relative;
+    background-color: #D3D3D3;
+    min-height: 50px;
+    top: 1000px;
+}
+
+.stel {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    position: absolute;
+    top: 3px;
+    right: 48%;
+    text-transform: uppercase;
+    color:#6495ED;
+    font-weight: 700;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+    <img src="elsa.png" alt="logo">
+    <h1 style="color: white;">Hai, saya</h1>
+    <h1 style="color: #6495ED; left: 390px;">Elsa Aisle</h1>
+    <p>seorang dolor sit</p>
+</div>
+	
+<nav class="nav">
+	<ul class="ul">
+		<li><a href="#" style="color: white;">TENTANG SAYA</a></li>
+		<li><a href="#" style="color: white;">PENGALAMAN KERJA</a></li>
+        <li><a href="#" style="color: white;">HUBUNGI SAYA</a></li>
+	</ul>
+</nav>
+
+<main>
+	<section>
+		<h3 class="navi">#tentang saya</h3>
+        <div style="display: flex">
+		<p class="hadeh">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Tortor at risus viverra adipiscing at. Vitae aliquet nec ullamcorper sit amet risus. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Aliquam malesuada bibendum arcu vitae elementum. Id aliquet risus feugiat in ante metus dictum. Lorem ipsum dolor sit amet consectetur adipiscing. Nunc scelerisque viverra mauris in aliquam sem. In fermentum posuere urna nec tincidunt. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Consequat semper viverra nam libero. Nibh ipsum consequat nisl vel pretium lectus. Nulla posuere sollicitudin aliquam ultrices sagittis. Etiam sit amet nisl purus in mollis nunc sed. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Mauris augue neque gravida in. </p>
+        <figure class="pigur">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/b48AN_8wokU?controls=0"></iframe>
+            <figcaption>stream stranger things on netflix</figcaption>
+        </figure>
+        </div>
+    </section>
+          
+    <section style="position: absolute; top: 750px;">
+        <h3 class="navi">#pengalaman</h3>
+            <table id="table1">
+                <thead>
+                <tr>
+                <th rowspan="2">no</th>
+                <th rowspan="2">posisi</th>
+                <th rowspan="2">perusahaan</th>
+                <th colspan="2">waktu</th>
+                </tr>
+
+                <th>mulai</th>
+                <th>selesai</th>
+                </thead>
+
+                <tbody>
+                <tr>
+                <td>1</td>
+                <td>lorem</td>
+                <td>ipsum</td>
+                <td>2121</td>
+                <td>2323</td>
+                </tr>
+
+                <tr>
+                <td>2</td>
+                <td>ipsum</td>
+                <td>llrem</td>
+                <td>1213</td>
+                <td>4232</td>
+                </tr>
+
+                <tr>
+                <td>3</td>
+                <td>ipsum</td>
+                <td>llrem</td>
+                <td>1213</td>
+                <td>4232</td>
+                </tr>
+
+                <tr>
+                <td>4</td>
+                <td>ipsum</td>
+                <td>llrem</td>
+                <td>1213</td>
+                <td>4232</td>
+                </tr>
+
+                <tr>
+                <td>5</td>
+                <td>ipsum</td>
+                <td>llrem</td>
+                <td>1213</td>
+                <td>4232</td>
+                </tr>
+                </tbody>
+            </table>
+    </section>  
+        
+    <section style="position: absolute; top: 1000px;">
+        <h3 class="navi">#hubungi saya</h3>
+            <div class="hadeh2">
+            <form action="#" method="">
+            <label for="name">nama:</label>
+            <input type="text" name="nama" id="name">
+            </form>
+
+            <p>sudah nonton film saya?</p>
+            <form action="#" method="">
+            <input type="radio" name="film" id="s" value="sudah">
+            <label for="s">sudah</label>
+
+            <input type="radio" name="film" id="b" value="belum">
+            <label for="b">belum</label>
+            </form>
+
+            <p>apa coba?</p>
+            <form action="#" method="">
+            <input type="checkbox" name="n1" id="in" value="ini">
+            <label for="in" class="checkbox-inline">ini</label>
+
+            <input type="checkbox" name="n2" id="it" value="itu">
+            <label for="it" class="checkbox-inline">itu</label>
+
+            <input type="checkbox" name="n3" id="an" value="anu">
+            <label for="an" class="checkbox-inline">anu</label>
+            </form>
+            <input type="submit" value="Submit">
+            </div>
+    </section>
+</main>     
+           
+<footer class="futer">
+    <p class="stel">ini footer</p>
+</footer> 
+</body>
+</html>
